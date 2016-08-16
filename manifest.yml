@@ -1,3 +1,4 @@
+---
 declared-services:
   elephant-sql-service:
     label: elephantsql
@@ -7,4 +8,5 @@ applications:
   random-route: true
   memory: 512M
   services:
-  - elephant-sql-service
+    - elephant-sql-service
+  host: aspnet-core-todo
